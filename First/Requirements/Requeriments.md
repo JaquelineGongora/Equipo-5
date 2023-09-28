@@ -6,7 +6,7 @@
 - **FR2:** The system will allow the user to edit the grades of the students within the assigned time period.
 - **FR3:** The system will display the number of previously registered students and their information.
 ### Non-functional Requirements:
-- **NFR1:** The system will sum up the scores assigned to the students for each module and provide a final grade.
+- **NFR1:** The system will sum up the scores assigned to the students and provide a final grade for each module.
 - **NFR2:** The system will indicate through the final grade whether the user passed or failed the course or diploma program (with a minimum passing grade of 60).
 - **NFR3:** The system will have a maximum capacity for 150 students and 5 users.
 - **NFR4:** In diploma programs, the system will validate if the student completed and passed all modules before assigning a final grade.
