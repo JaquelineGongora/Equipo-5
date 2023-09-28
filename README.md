@@ -1,6 +1,7 @@
 # Educación Continua FMAT Register Grades Platform
 
-![Logo](/Images/14635a03-ca31-4474-8e5b-96704934ba05.jpg)
+[![Logo](/Images/14635a03-ca31-4474-8e5b-96704934ba05.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
+
 
 ## Objective:
 Create a platform for "Educación Continua" that allows for the registration, modification, and review of student grades.
