@@ -3,9 +3,9 @@
 ## User: Instructors.
 
 ### Functional Requirements:
-- **FR1:** The system will display the number of previously registered students and their information.
-- **FR2:** The system will allow the user to assign grades for each module of each registered student.
-- **FR3:** The system will allow the user to edit the grades of the students within the assigned time period.
+- **FR1-Students´ list:** The system will display the number of previously registered students and their information.
+- **FR2-Assign grades:** The system will allow the user to assign grades for each module of each registered student.
+- **FR3-Grades´edition:** The system will allow the user to edit the grades of the students within the assigned time period.
 
 ### Non-functional Requirements:
 - **NFR1:** The system will have a maximum capacity for 150 students and 5 users.
