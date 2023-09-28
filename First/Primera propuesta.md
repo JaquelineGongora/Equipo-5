@@ -3,6 +3,10 @@
 ## Objetivo
 - Realizar una plataforma para Educación Continua que permita registrar, modificar y revisar las calificaciones del alumno.
 
+## Prpuesta de valor
+Tener en una plataforma web las calificaciones de los estudiantes de diplomados y cursos de la Facultad de Matemáticas, en la que los instructores podrán registrar y editar las
+calificaciones de los alumnos.
+
 ### ¿Qué es educación continua?
 Los Diplomados forman parte del Programa de Educación
 Continua del Departamento de Vinculación de la Facultad de
