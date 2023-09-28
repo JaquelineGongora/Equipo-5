@@ -1,4 +1,7 @@
-# Team-5
+# Eduacación Continua FMAT Register Grades Platform
+
+![Logo](/Images/14635a03-ca31-4474-8e5b-96704934ba05.jpg)
+
 
 ## Group members:
 1. Cervera Chacon Ricardo Antonio
