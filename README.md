@@ -21,6 +21,9 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 ## Courses:
 - Open Source Tools for Machine Learning
 
+## Requeriments
+- [Requiriments List ](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Requirements/Requeriments.md)
+- [User History](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Requirements/User%20stories.md)
 
 ## Group members and link profiles:
 1. [Cervera Chacon Ricardo Antonio](https://www.linkedin.com/in/ricardo-cervera-chacon-6b2a6028a/)
