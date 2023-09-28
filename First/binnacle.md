@@ -10,3 +10,4 @@
 |22/09/23  | Sent requirements to adviser for aprovement. | Pending for a validation.|
 |25/09/23  | Requirements´ revision meeting. |We need to to some adjustments to the Functional requirements.|
 |25/09/23  | Requirements´ edition. | Pending.|
+|27/09/23  |Group meeting to work on first sprint.| Working on it.|  
