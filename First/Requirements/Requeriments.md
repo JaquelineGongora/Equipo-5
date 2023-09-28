@@ -1,5 +1,5 @@
 # Requirements
-## The system is intended for instructors of diploma programs and courses at the Faculty of Mathematics.
+## The system is intended for instructors of diploma programs and courses at the Facultad de Matemáticas.
 ## User: Instructors.
 ### Functional Requirements:
 - **FR1:** The system will allow the user to assign grades for each module of each registered student.
