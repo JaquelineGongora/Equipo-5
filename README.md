@@ -31,5 +31,5 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 2. [Góngora Tun Jaqueline](https://www.linkedin.com/in/jaqueline-g%C3%B3ngora-313649268)
 3. [González Canul Mariana Estefanía](https://www.linkedin.com/in/mariana-gonz%C3%A1lez-b6383128a)
 4. [González Ortega Eduardo Alberto](https://www.linkedin.com/in/eduardo-gonz%C3%A1lez-ortega-5b3947271)
-5. [ Cervera Chacon Ricardo Antonio](https://www.linkedin.com/in/mauro-arif-kuh-esquivel-92298626b/)
+5. [Kuh Esquivel Mauro Arif](https://www.linkedin.com/in/mauro-arif-kuh-esquivel-92298626b/)
     
