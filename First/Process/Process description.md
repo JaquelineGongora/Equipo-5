@@ -10,6 +10,10 @@ SCRUM MASTER: Jaqueline Góngora.
 The Scrum Master is responsible for managing and ensuring that the Scrum process is
 is carried out correctly, as well as facilitating the execution of the process and its mechanics.
 
-Development team: Ricardo Cervera, Mauro Esquivel, Mariana Gonzalez & Eduardo Gonzalez.
-are in charge of developing the product, self-organizing and self-managing to
+Product Owner: Mariana González.
+Is the responsible for the project's outcome. The product owner seeks to maximize a product's value by
+managing and optimizing the product backlog. 
+
+Development team: Ricardo Cervera, Mauro Esquivel & Eduardo Gonzalez.
+They are in charge of developing the product, self-organizing and self-managing to
 manage to deliver an increment of software at the end of the development cycle.
