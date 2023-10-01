@@ -2,6 +2,11 @@
 
 [![Logo](/Images/14635a03-ca31-4474-8e5b-96704934ba05.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
 
+## Problem:
+The instructors of "Educación continua" don´t have a website where they can register and edit their students' grades.
+
+## Solution:
+Web platform where instructors of courses and diplomas from the Faculty of Mathematics will be able to register, edit, and review the grades of previously enrolled students to facilitate the storage of the students' Continuing Education grade information.
 
 ## Objective:
 Create a platform for "Educación Continua" that allows for the registration, modification, and review of student grades.
