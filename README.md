@@ -30,10 +30,15 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 ## Requeriments
 - [Requiriments List ](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Requirements/Requeriments.md)
 - [User History](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Requirements/User%20stories.md)
+- [Specification]()
 
 ## Process
 - [Process Description](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Process/Process%20description.md)
 - [Binnacle](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Process/binnacle.md)
+- [Contribution Metric]()
+
+## Preview presentation
+[Video](https://youtu.be/z_bFhzd-GYg)
 
 ## Competencies
 - [Generic competencies](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Competencies/Generic%20Competencies.md)
