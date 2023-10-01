@@ -19,17 +19,26 @@ Diploma programs are part of the "Educación Continua" Program of the Department
 The "Facultad de matemáticas", in accordance with its mission to "train highly qualified professionals, conduct research, and engage in outreach activities in mathematics and computer science, as well as their various applications," and in its commitment to meeting the needs in its area of expertise, offers the following to society:
 
 ## Diploma Programs:
-- Business Cybersecurity
-- Machine Learning
-- Applied Statistical Methods
-- Computational Tools for Information Analysis
+- [Business Cybersecurity](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/687-diplomado-en-ciberseguridad-para-los-negocios)
+- [Machine Learning](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/642-diplomado-en-aprendizaje-automatico)
+- [Applied Statistical Methods](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/56-diplomado-en-metodos-estadisticos-aplicados)
+- [Computational Tools for Information Analysis](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/61-diplomado-en-herramientas-computacionales-para-el-analisis-de-la-informacion)
 
 ## Courses:
-- Open Source Tools for Machine Learning
+- [Open Source Tools for Machine Learning](https://www.matematicas.uady.mx/vinculacion/educacion-continua/78-facultad/vinculacion/educacion-continua/cursos/707-curso-de-herramientas-open-source-para-aprendizaje-automatico)
 
 ## Requeriments
 - [Requiriments List ](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Requirements/Requeriments.md)
 - [User History](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Requirements/User%20stories.md)
+
+## Process
+- [Process Description](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Process/Process%20description.md)
+- [Binnacle](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Process/binnacle.md)
+
+## Competencies
+- [Generic competencies](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Competencies/Generic%20Competencies.md)
+- [Specific competencies](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Competencies/Specific%20competencies.md)
+
 
 ## Group members and link profiles:
 1. [Cervera Chacon Ricardo Antonio](https://www.linkedin.com/in/ricardo-cervera-chacon-6b2a6028a/)
