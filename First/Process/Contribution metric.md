@@ -14,12 +14,12 @@ In the following [link](https://github.com/JaquelineGongora/Equipo-5/blob/First/
 |Process Description| Eduardo|3/3 | 3|
 |Competencies| Eduardo, Ricardo| 2/2|2|
 |Binnacle| Mariana| 3/3 |3|
-|Contribution metric| Mariana|2/2 |2|
+|Contribution metric| Mariana, Jaqueline, Mauro|2/2 |2|
 |ReadMe- Organization| Mauro|3/3| 3|
 |Video-Audio| Mariana, Mauro| 2/2| 2|
 |Video-Presentation|Jaqueline, Eduardo| 2/2 | 2| 
 |Video-Edition| Ricardo | 4/4| 4|
-|Final Score|Jaqueline= 17    Mariana=20    Mauro=17    Ricardo=16    Eduardo=17  |
+|Final Score|Jaqueline= 20    Mariana=20    Mauro=20    Ricardo=16    Eduardo=17  |
 
 
 
