@@ -8,3 +8,5 @@
 | 16/10/23  |Jaqueline, Mariana, Mauro| Started researching about the database. | Schedule a group meeting.|
 | 18/10/23  |Jaqueline, Mariana| Meeting with professor Viviana Azcorra.| The requirements were all correct.|
 | 18/10/23  ||Weekly meeting was cancelled (there weren´t significant advances).| Pending.|
+| 25/10/23  |Jaqueline, Mariana, Mauro, Eduardo, Ricardo, Mr. Edgar Cambranes|Weekly meeting.| Need to check the data base H2, requirements, re-do clases diagram.|
+| 28/10/23  |Jaqueline, Mariana, Mauro, Eduardo, Ricardo| Group meeting.| Check advances and keep working on the code and data base.|
