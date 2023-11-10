@@ -18,7 +18,7 @@ To have the grades of students in diploma programs and courses from "Facultad de
 Diploma programs are part of the "Educación Continua" Program of the Department of Engagement at the "Facultad de matemátoicas", which promotes services demanded by society, various business and commercial stakeholders, the educational sector, and the government, by offering high-quality professional products and services.
 The "Facultad de matemáticas", in accordance with its mission to "train highly qualified professionals, conduct research, and engage in outreach activities in mathematics and computer science, as well as their various applications," and in its commitment to meeting the needs in its area of expertise, offers the following to society:
 
-# First Sprint
+# First 
 ## Diploma Programs:
 - [Business Cybersecurity](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/687-diplomado-en-ciberseguridad-para-los-negocios)
 - [Machine Learning](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/642-diplomado-en-aprendizaje-automatico)
@@ -45,7 +45,9 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 - [Generic competencies](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Competencies/Generic%20Competencies.md)
 - [Specific competencies](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Competencies/Specific%20competencies.md)
 
-# Second Sprint
+# Second 
+The changes made it in the second Sprint respect to the first:
+We have refined our requirements to clarify what we want to achieve, and with this, we have modified the class diagram and started the coding based on that. Currently, we have an incomplete console program made in NeatBeans with graphical interfaces that is connected to a local database and allows the application of the MVC pattern. We have developed use cases and also a use case diagram to graphically explain the program's capabilities. 
 
 ## Product
 - Updates
