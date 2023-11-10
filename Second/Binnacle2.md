@@ -10,3 +10,4 @@
 | 18/10/23  ||Weekly meeting was cancelled (there weren´t significant advances).| Pending.|
 | 25/10/23  |Jaqueline, Mariana, Mauro, Eduardo, Ricardo, Professor  Edgar Cambranes|Weekly meeting.| Need to check the data base H2, requirements, re-do clases diagram.|
 | 28/10/23  |Jaqueline, Mariana, Mauro, Eduardo, Ricardo| Group meeting.| Check advances and keep working on the code and data base.|
+| 01/11/23  ||Group meeting canceled due to non-business day.| |
