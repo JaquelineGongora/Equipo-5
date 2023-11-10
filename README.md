@@ -18,6 +18,7 @@ To have the grades of students in diploma programs and courses from "Facultad de
 Diploma programs are part of the "Educación Continua" Program of the Department of Engagement at the "Facultad de matemátoicas", which promotes services demanded by society, various business and commercial stakeholders, the educational sector, and the government, by offering high-quality professional products and services.
 The "Facultad de matemáticas", in accordance with its mission to "train highly qualified professionals, conduct research, and engage in outreach activities in mathematics and computer science, as well as their various applications," and in its commitment to meeting the needs in its area of expertise, offers the following to society:
 
+# First Sprint
 ## Diploma Programs:
 - [Business Cybersecurity](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/687-diplomado-en-ciberseguridad-para-los-negocios)
 - [Machine Learning](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/642-diplomado-en-aprendizaje-automatico)
@@ -44,6 +45,30 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 - [Generic competencies](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Competencies/Generic%20Competencies.md)
 - [Specific competencies](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Competencies/Specific%20competencies.md)
 
+# Second Sprint
+
+## Product
+- Updates
+
+## Requeriments 
+- Evolution
+- Refiniment
+  
+## Design
+- Abstraction
+- Correspondency
+
+## MVC
+
+## Procces
+- Metric
+
+## Second Presentation
+- Video
+
+## Competences
+- Generics
+- Specifics
 
 ## Group members and link profiles:
 1. [Cervera Chacon Ricardo Antonio](https://www.linkedin.com/in/ricardo-cervera-chacon-6b2a6028a/)
