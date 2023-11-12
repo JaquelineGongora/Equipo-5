@@ -10,4 +10,7 @@
 | 18/10/23  ||Weekly meeting was cancelled (there weren´t significant advances).| Pending.|
 | 25/10/23  |Jaqueline, Mariana, Mauro, Eduardo, Ricardo, Professor  Edgar Cambranes|Weekly meeting.| Need to check the data base H2, requirements, re-do clases diagram.|
 | 28/10/23  |Jaqueline, Mariana, Mauro, Eduardo, Ricardo| Group meeting.| Check advances and keep working on the code and data base.|
-| 01/11/23  ||Group meeting canceled due to non-business day.| |
+| 01/11/23  ||Group meeting canceled due to non-business day.|----- |
+| 26/10/23 - 07/11/23 || Coding phase.|----- |
+| 07/11/23 - 12/11/23 || General review of all the progress regarding the second delivery (first sprint ends.)|-----|
+| 13/11/23  | | Second delivery.|-----|
