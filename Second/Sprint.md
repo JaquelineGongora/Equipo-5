@@ -1,4 +1,4 @@
-# First Sprint
+# Second Sprint
 ## Start: October 10, 2023 
 ## End: November 12, 2023
 
