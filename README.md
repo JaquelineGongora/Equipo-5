@@ -1,3 +1,18 @@
+# Equipo-5
+
+## Integrantes:
+1. Cervera Chacon Ricardo Antonio
+2. Góngora Tun Jaqueline
+3. González Canul Mariana Estefanía
+4. González Ortega Eduardo Alberto
+5. Kuh Esquivel Mauro Arif
+
+## Perfiles de LinkedIn:
+1. https://www.linkedin.com/in/ricardo-cervera-chacon-6b2a6028a/
+2. https://www.linkedin.com/in/jaqueline-g%C3%B3ngora-313649268
+3. https://www.linkedin.com/in/mariana-gonz%C3%A1lez-b6383128a
+4. https://www.linkedin.com/in/eduardo-gonz%C3%A1lez-ortega-5b3947271
+5. https://www.linkedin.com/in/mauro-arif-kuh-esquivel-92298626b/
 # Educación Continua FMAT Register Grades Platform
 
 [![Logo](/Images/14635a03-ca31-4474-8e5b-96704934ba05.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
@@ -72,10 +87,5 @@ We have refined our requirements to clarify what we want to achieve, and with th
 - Generics
 - Specifics
 
-## Group members and link profiles:
-1. [Cervera Chacon Ricardo Antonio](https://www.linkedin.com/in/ricardo-cervera-chacon-6b2a6028a/)
-2. [Góngora Tun Jaqueline](https://www.linkedin.com/in/jaqueline-g%C3%B3ngora-313649268)
-3. [González Canul Mariana Estefanía](https://www.linkedin.com/in/mariana-gonz%C3%A1lez-b6383128a)
-4. [González Ortega Eduardo Alberto](https://www.linkedin.com/in/eduardo-gonz%C3%A1lez-ortega-5b3947271)
-5. [Kuh Esquivel Mauro Arif](https://www.linkedin.com/in/mauro-arif-kuh-esquivel-92298626b/)
+
     
