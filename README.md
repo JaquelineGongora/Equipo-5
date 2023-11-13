@@ -1,4 +1,5 @@
   # Equipo-5
+  # Educación Continua FMAT Register Grades Platform
 
 [![Logo](/imagen/Educon.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
 
@@ -43,7 +44,7 @@ Initially, we thought both teachers and students could review grades, but that w
 - [Use Case Specification](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/Use%20cases%20specification.pdf)
 
 ## MVC
--[MVC USE](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md)
+- [MVC USE](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md)
 
 ## Procces
 - [Metric](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Procces/SecondContribution%20metric.md)
@@ -70,4 +71,4 @@ Initially, we thought both teachers and students could review grades, but that w
 3. https://www.linkedin.com/in/mariana-gonz%C3%A1lez-b6383128a
 4. https://www.linkedin.com/in/eduardo-gonz%C3%A1lez-ortega-5b3947271
 5. https://www.linkedin.com/in/mauro-arif-kuh-esquivel-92298626b/
-# Educación Continua FMAT Register Grades Platform
+
