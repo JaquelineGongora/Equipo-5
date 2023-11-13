@@ -1,4 +1,4 @@
-Generic Competencies:
+# Generic Competencies:
 
 1. **Collaboration and Teamwork:**
    - We have strengthened our teamwork skills by dividing into two groups to address different aspects of the project. Effective collaboration has been essential to achieve synergy between abstraction, documentation, and coding.
