@@ -55,7 +55,7 @@ Initially, we thought both teachers and students could review grades, but that w
 - [Video](https://youtu.be/PHZV-5Fg_Ps?si=AYf7dQ01kgdQG5bJ)
 
 ## Competences
-- [Generic](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Competences/Generic)
+- [Generic](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Competences/Generic.md)
 - [Specifics](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Competences/Specifics.md)
 
 ## Group members and link profiles:
