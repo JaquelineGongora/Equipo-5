@@ -3,7 +3,7 @@ In the following [link](https://github.com/JaquelineGongora/Equipo-5/blob/Gonz%C
 
 | Activities | Responsable | Score Obtained | Top Score |
 |------------|-------------|----------------|-----------|
-|User cases diagram|Mariana, Jaqueline |3 |3/3  |
+|User cases diagram|Mariana, Jaqueline |1 |1/1  |
 |Class diagram|Eduardo|3|3/3|
 |Use cases|Mariana, Jaqueline | 3| 3/3|
 |Video edition| Mariana |4 | 4/4|
@@ -19,4 +19,4 @@ In the following [link](https://github.com/JaquelineGongora/Equipo-5/blob/Gonz%C
 |DB creation|Ricardo,Mauro| 2|2/2|
 |DB conexion| Eduardo, Ricardo| 3| 3/3|
 |Code|Ricardo, Mauro| 5|5/5|
-|Final Score|Jaqueline= 18    Mariana=20  Mauro=16    Ricardo=11    Eduardo=7  |
+|Final Score|Jaqueline= 16    Mariana=18  Mauro=16    Ricardo=11    Eduardo=7  |
