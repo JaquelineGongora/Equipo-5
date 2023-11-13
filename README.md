@@ -1,4 +1,6 @@
-[![Logo](/Images/14635a03-ca31-4474-8e5b-96704934ba05.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
+  # Equipo-5
+
+[![Logo](/imagen/Educon.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
 
 ## Problem:
 The instructors of "Educación continua" don´t have a website where they can register and edit their students' grades.
@@ -26,9 +28,10 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 - [Open Source Tools for Machine Learning](https://www.matematicas.uady.mx/vinculacion/educacion-continua/78-facultad/vinculacion/educacion-continua/cursos/707-curso-de-herramientas-open-source-para-aprendizaje-automatico)
 
 
-## Product
-Use cases were made with their diagram to have a better view of how it works.
-With this we make modifications to the class diagram to turn it into a more accurate representation of what was mentioned above. When doing this we realized that it was essential to have a database where the information is stored, so an investigation was carried out. Once the class diagram was modified and with the information from the database, work began on the final version of the code for this delivery, which includes a connection to a local database, a code in which it is possible to assign and edit grades and a basic interface.
+## Product Evolution
+The goal of our project is to create a web application for Continuous Education teachers or instructors to Register and Modify grades of previously registered students. The idea is to scale the project until it becomes fully functional.
+We made significant progress from the initial phase, where we had many ideas about what needed to be done, and each team member had a different vision. As a result, things like requirements, classes, and their diagram have been modified.
+Initially, we thought both teachers and students could review grades, but that would require two different types of credentials. The current idea is to provide the program directly to the instructor with the loaded diplomas and courses. After making these changes, we started coding. To do this, we had to learn how to create a local database and plan to move it to the cloud by the end of the project. We have started working on the graphical interface, although it is still subject to possible changes to look better and function seamlessly with the MVC paradigm.
 
 ## Requeriments 
 - [Evolution](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Requirements/Requerimientos.md)
@@ -37,6 +40,7 @@ With this we make modifications to the class diagram to turn it into a more accu
   
 ## Design
 - [Abstraction](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/CD.png)
+- [Use Case Specification](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/Use%20cases%20specification.pdf)
 
 ## MVC
 -[MVC USE](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md)
@@ -52,8 +56,6 @@ With this we make modifications to the class diagram to turn it into a more accu
 ## Competences
 - [Generic](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Competences/Generic)
 - [Specifics](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Competences/Specifics.md)
-
-  # Equipo-5
 
 ## Integrantes:
 1. Cervera Chacon Ricardo Antonio
