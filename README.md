@@ -13,3 +13,79 @@
 3. https://www.linkedin.com/in/mariana-gonz%C3%A1lez-b6383128a
 4. https://www.linkedin.com/in/eduardo-gonz%C3%A1lez-ortega-5b3947271
 5. https://www.linkedin.com/in/mauro-arif-kuh-esquivel-92298626b/
+# Educación Continua FMAT Register Grades Platform
+
+[![Logo](/Images/14635a03-ca31-4474-8e5b-96704934ba05.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
+
+## Problem:
+The instructors of "Educación continua" don´t have a website where they can register and edit their students' grades.
+
+## Solution:
+Web platform where instructors of courses and diplomas from the Faculty of Mathematics will be able to register, edit, and review the grades of previously enrolled students to facilitate the storage of the students' Continuing Education grade information.
+
+## Objective:
+Create a platform for "Educación Continua" that allows for the registration, modification, and review of student grades.
+
+## Value Proposition:
+To have the grades of students in diploma programs and courses from "Facultad de matemáticas" available on a web platform, where instructors can register and edit the students' grades.
+
+## What is Continuing Education?
+Diploma programs are part of the "Educación Continua" Program of the Department of Engagement at the "Facultad de matemátoicas", which promotes services demanded by society, various business and commercial stakeholders, the educational sector, and the government, by offering high-quality professional products and services.
+The "Facultad de matemáticas", in accordance with its mission to "train highly qualified professionals, conduct research, and engage in outreach activities in mathematics and computer science, as well as their various applications," and in its commitment to meeting the needs in its area of expertise, offers the following to society:
+
+# First 
+## Diploma Programs:
+- [Business Cybersecurity](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/687-diplomado-en-ciberseguridad-para-los-negocios)
+- [Machine Learning](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/642-diplomado-en-aprendizaje-automatico)
+- [Applied Statistical Methods](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/56-diplomado-en-metodos-estadisticos-aplicados)
+- [Computational Tools for Information Analysis](https://www.matematicas.uady.mx/vinculacion/educacion-continua/61-facultad/vinculacion/educacion-continua/diplomados/61-diplomado-en-herramientas-computacionales-para-el-analisis-de-la-informacion)
+
+## Courses:
+- [Open Source Tools for Machine Learning](https://www.matematicas.uady.mx/vinculacion/educacion-continua/78-facultad/vinculacion/educacion-continua/cursos/707-curso-de-herramientas-open-source-para-aprendizaje-automatico)
+
+## Requeriments
+- [Requiriments List ](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Requirements/Requeriments.md)
+- [User History](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Requirements/User%20stories.md)
+- [Specification](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Requirements/Functional%20Requirements.md)
+
+## Process
+- [Process Description](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Process/Process%20description.md)
+- [Binnacle](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Process/binnacle.md)
+- [Contribution Metric](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Process/Contribution%20metric.md)
+
+## Preview presentation
+[Video](https://youtu.be/z_bFhzd-GYg)
+
+## Competencies
+- [Generic competencies](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Competencies/Generic%20Competencies.md)
+- [Specific competencies](https://github.com/JaquelineGongora/Equipo-5/blob/First/First/Competencies/Specific%20competencies.md)
+
+# Second 
+The changes made it in the second Sprint respect to the first:
+We have refined our requirements to clarify what we want to achieve, and with this, we have modified the class diagram and started the coding based on that. Currently, we have an incomplete console program made in NeatBeans with graphical interfaces that is connected to a local database and allows the application of the MVC pattern. We have developed use cases and also a use case diagram to graphically explain the program's capabilities. 
+
+## Product
+- Updates
+
+## Requeriments 
+- Evolution
+- Refiniment
+  
+## Design
+- Abstraction
+- Correspondency
+
+## MVC
+
+## Procces
+- Metric
+
+## Second Presentation
+- Video
+
+## Competences
+- Generics
+- Specifics
+
+
+    
