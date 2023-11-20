@@ -1,7 +1,7 @@
 
 create database EducacionContinua; /Crear Base de datos/
 
-use EducacionContinua;  /* Usar Base de datos*/
+use EducacionContinua;
 
 CREATE TABLE tablaEstudiantes(
     id INT AUTO_INCREMENT PRIMARY KEY,
