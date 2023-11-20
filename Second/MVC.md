@@ -1,6 +1,9 @@
 # MVC
 MVC (Model-View-Controller) is a design pattern that separates the application into three main components: Model, View and Controller, where each component will be implemented as a class or a set of classes in a way that facilitates modularity, code reuse.
+
 In our project this pattern was used as follows:
+
+[Link](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code) to access the code.
 
 1. **Model:**
    
