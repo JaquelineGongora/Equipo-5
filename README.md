@@ -34,21 +34,25 @@ The goal of our project is to create a web application for Continuous Education 
 We made significant progress from the initial phase, where we had many ideas about what needed to be done, and each team member had a different vision. As a result, things like requirements, classes, and their diagram have been modified.
 Initially, we thought both teachers and students could review grades, but that would require two different types of credentials. The current idea is to provide the program directly to the instructor with the loaded diplomas and courses. After making these changes, we started coding. To do this, we had to learn how to create a local database and plan to move it to the cloud by the end of the project. We have started working on the graphical interface, although it is still subject to possible changes to look better and function seamlessly with the MVC paradigm.
 
+- [MVC](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md)
+
+
 ## Requeriments 
 - [Evolution](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Requirements/Requerimientos.md)
 - [Refiniment](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Procces/Sprint.md)
 
   
 ## Design
-- [Abstraction](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/CD.png)
+- [Abstraction](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/class_diagram.png)
 - [Use Case Specification](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/Use%20cases%20specification.pdf)
+- [Use Case Diagram](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/Use%20Case%20Diagram.pdf)
 
 ## Code
-- [Model]([[https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Modelo](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Modelo)](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Modelo))
-- [View]([[https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Vista)](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Vista))
-- [Controler]([[https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Controlador)](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Controlador))
-- [Main]([[https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/ejerciciorepaso)](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/ejerciciorepaso))
-- [SQL]([[https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/SQL)](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/SQL))
+- [Model](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Modelo)
+- [View](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Vista)
+- [Controler](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Controlador)
+- [Main](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/ejerciciorepaso)
+- [SQL](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/SQL)
 
 ## Procces
 - [Metric](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Procces/SecondContribution%20metric.md)
