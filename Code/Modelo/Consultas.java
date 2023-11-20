@@ -16,14 +16,10 @@ public class Consultas {
         conexion = new Conexion();
     }
     
-   
-    //Funcion para obtener la base de datos, devuelve una Lista de Productos
     public List<Estudiante> CargarBase() {
         
-        //Query para poder ver seleccionar los productos en MySql
         String query = "select * from tablaEstudiantes";
         
-        //Se inicia una conexión y se carga en un statement el query 
          try (Connection c = conexion.getConexion();
               PreparedStatement ps = c.prepareStatement(query)){
          
@@ -31,18 +27,14 @@ public class Consultas {
              ResultSet rs = ps.executeQuery();
              
              List<Estudiante> estudiante = new ArrayList<>();
-             //Se recorre la lista
+         
              while(rs.next()){
-                
-                //Se cre un nuevo objeto producto
                 Estudiante p = new Estudiante();
-                 //Se guardan los valores al objeto
                 p.setId(rs.getInt(1));
                 p.setMatricula(rs.getInt(2));
                 p.setNombre(rs.getString(3));
                 p.setCalif(rs.getInt(4));
                 p.setDiplomado(rs.getString(7));
-                //Se agrega el producto a la lista
                 estudiante.add(p);
              }
              
