@@ -44,11 +44,11 @@ Initially, we thought both teachers and students could review grades, but that w
 - [Use Case Specification](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/Use%20cases%20specification.pdf)
 
 ## Code
-- [Model]([https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Modelo](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Modelo))
-- [Viewer]([https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Vista))
-- [Controler]([https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Controlador))
-- [Main]([https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/ejerciciorepaso))
-- [SQL]([https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/SQL))
+- [Model]([[https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Modelo](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Modelo)](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Modelo))
+- [View]([[https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Vista)](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Vista))
+- [Controler]([[https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Controlador)](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Controlador))
+- [Main]([[https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/ejerciciorepaso)](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/ejerciciorepaso))
+- [SQL]([[https://github.com/JaquelineGongora/Equipo-5/blob/Second/Second/MVC.md](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/SQL)](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/SQL))
 
 ## Procces
 - [Metric](https://github.com/JaquelineGongora/Equipo-5/blob/Second/Procces/SecondContribution%20metric.md)
