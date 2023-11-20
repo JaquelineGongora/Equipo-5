@@ -14,9 +14,9 @@ In the following [link](https://github.com/JaquelineGongora/Equipo-5/blob/Gonz%C
 |Sprints| Mariana, Jaqueline|3|3/3|
 |Presentation| Jaqueline| 5| 5/5|
 |Competencies|Mauro| 3|3/3|
-|Requirements priorization| Mariana, Jaqueline| 1|1/1|
+|Requirements priorization| Mariana | 1|1/1|
 |Repository organization|Mauro| 3|3/3|
-|DB creation|Ricardo, Mauro| 2|2/2|
-|DB conexion| Eduardo, Ricardo| 3| 3/3|
-|Code|Ricardo, Mauro| 5|5/5|
-|Final Score|Jaqueline= 19    Mariana=18  Mauro=16    Ricardo=11    Eduardo=4  |
+|DB creation| Mauro| 2|2/2|
+|DB conexion| Mauro| 3| 3/3|
+|Code| Mauro| 5|5/5|
+|Final Score|Jaqueline= 18, Mariana=18, Mauro=19, Ricardo=1, Eduardo=1  |
