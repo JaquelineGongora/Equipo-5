@@ -20,7 +20,6 @@ public class ControladorEstudiante implements ActionListener{
     JTextArea textArea;
     
 
-    //Constructor 
     public ControladorEstudiante(NewJFrame vista, Consultas consultador, Estudiante estudiante){
        this.estudiante=estudiante;
        this.vista = vista;
@@ -30,10 +29,9 @@ public class ControladorEstudiante implements ActionListener{
        this.vista.btn_eliminar.addActionListener(this);
        this.vista.btn_buscar.addActionListener(this);
        this.vista.btn_limpiar.addActionListener(this);
-       
     }
 
-    //Funcion Para desplegar Menú
+   
     @Override
     public void actionPerformed(ActionEvent e) {
         
@@ -50,31 +48,6 @@ public class ControladorEstudiante implements ActionListener{
         }
     }
 
-    /*
-    //Función Para Ordenar Por Nombre
-    public List<Estudiante> OrdenarNombre(){
-    
-        //Se obtienen los datos de la lista por medio del consultador
-        List<Estudiante> productos = consultador.CargarBase();
-        
-        //Collections ordena la lista por el nombre ascendentemente por medio del comparador que va comparando cada nombre
-        Collections.sort(productos, Comparator.comparing(Estudiante::getNombre, String.CASE_INSENSITIVE_ORDER));
-        //Se devuelve la lista ordenada
-        return productos;
-        
-    }
-    
-    //Función Para Ordenar Por Precio
-    public List<Estudiante> OrdenarPrecio() {
-        //Se obtienen los datos de la lista por medio del consultador
-        List<Estudiante> productos = consultador.CargarBase();
-        //Collections ordena la lista por precio de menor a mayor por medio del comparador que va comparando cada nombre
-        Collections.sort(productos, Comparator.comparing(Estudiante::getPrecio));
-        return productos;
-    }
-*/
-    
-    
      public void AgregarEstudiante() {
         llenarEstudianteDesdeVista();
         if (consultador.registrar(estudiante)) {
