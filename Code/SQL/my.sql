@@ -1,27 +1,22 @@
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/SQLTemplate.sql to edit this template
- */
-/**
- * Author:  mauro
- * Created: 12 nov 2023
- */
 
-create database db_tienda;
+create database EducacionContinua; /Crear Base de datos/
 
-use db_tienda;
+use EducacionContinua;  /* Usar Base de datos*/
 
-CREATE TABLE tablaTienda(
+CREATE TABLE tablaEstudiantes(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    codigo VARCHAR(50) NOT NULL,
+	matricula VARCHAR(50) NOT NULL,
     nombre VARCHAR(50) NOT NULL,
-    precio INT NOT NULL
+    apellido VARCHAR(50) NOT NULL,
+    calificacion INT NOT NULL,
 );
+
 show tables;
+INSERT INTO tablaEstudiantes(matricula, nombre, apellido, calificacion)
+VALUES ( 'a19203622', 'Jaqueline', 'Góngora Tun', 10);
+INSERT INTO tablaEstudiantes(matricula, nombre, apellido, calificacion)
+VALUES ( 'a19201105', 'Mariana Estefanía', 'González Canul', 10);
+INSERT INTO tablaEstudiantes(matricula, nombre, apellido, calificacion)
+VALUES ( 'a19198913', 'Mauro Arif', 'Kuh Esquivel', 10);
 
-INSERT INTO tablaTienda(codigo, nombre,  precio)
-VALUES ( '2233', 'Chicle', 2);
-INSERT INTO tablaTienda(codigo, nombre,  precio)
-VALUES ( '3728', 'Galleta', 4);
-
-select * from tablaTienda;
+select * from tablaEstudiantes;
