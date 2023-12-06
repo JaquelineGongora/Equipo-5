@@ -52,6 +52,9 @@ public class ControladorEstudiante implements ActionListener{
         }
     }
 
+   public void Mostrar(){
+        consultador.MostrarAlumnos(vista.tabla2);
+    }
 
     public void Seleccionar(JTable paramTabla, JTextField matricula, JTextField paramNombres, JTextField calif1, JTextField md2, JTextField md3, JTextField md4, JTextField cfinal){
     
