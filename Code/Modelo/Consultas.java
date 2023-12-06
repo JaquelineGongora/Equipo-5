@@ -56,6 +56,58 @@ public class Consultas {
              
          }
     }
+
+    public void MostrarAlumnos(JTable paramTabla){
+    
+        Conexion objetoConexion = new Conexion();
+        
+        //Ordenar Tabla
+        DefaultTableModel modelo = new DefaultTableModel();
+        TableRowSorter<TableModel> OrdenarTabla = new TableRowSorter<TableModel>(modelo);
+        paramTabla.setRowSorter(OrdenarTabla);
+        
+        String sql="";
+        
+        modelo.addColumn("Matricula");
+        modelo.addColumn("Nombre");
+        modelo.addColumn("Modulo 1");
+        modelo.addColumn("Modulo 2");
+        modelo.addColumn("Modulo 3");
+        modelo.addColumn("Modulo 4");
+        modelo.addColumn("Final");
+        
+        paramTabla.setModel(modelo);
+        
+        sql = "select * from Ciberseguridad ORDER BY nombre;";
+        
+        String[] datos = new String[7];
+        Statement st;
+        
+        try {
+            st = objetoConexion.getConexion().createStatement();
+            ResultSet rs = st.executeQuery(sql);
+            while(rs.next()){
+                
+                datos[0]=rs.getString(2);
+                datos[1]=rs.getString(3);
+                datos[2]=rs.getString(4);
+                datos[3]=rs.getString(5);
+                datos[4]=rs.getString(6);
+                datos[5]=rs.getString(7);
+                 int suma = Integer.parseInt(datos[2]) + Integer.parseInt(datos[3]) + Integer.parseInt(datos[4]) + Integer.parseInt(datos[5]);
+                 datos[6] = String.valueOf(suma / 4);
+                
+                modelo.addRow(datos);
+            }
+            
+            paramTabla.setModel(modelo);
+            
+            
+        } catch (Exception e){
+            JOptionPane.showMessageDialog(null, "No se pudo mostrar");
+        }
+           
+    }
     
     public boolean registrar(Estudiante estudiante) {
         try (Connection con = conexion.getConexion();
