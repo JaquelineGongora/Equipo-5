@@ -25,11 +25,11 @@ public class ControladorEstudiante implements ActionListener{
        this.estudiante=estudiante;
        this.vista = vista;
        this.consultador=consultador;
-       this.vista.btn_agregar.addActionListener(this);
+       this.vista.btn_agregarIC.addActionListener(this);
        this.vista.btn_modificar.addActionListener(this);
-       this.vista.btn_eliminar.addActionListener(this);
        this.vista.btn_buscar.addActionListener(this);
        this.vista.btn_limpiar.addActionListener(this);
+       this.vista.btn_mostrar.addActionListener(this);
        
     }
 
@@ -37,19 +37,81 @@ public class ControladorEstudiante implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         
-        if (e.getSource() == vista.btn_agregar) {
+        if (e.getSource() == vista.btn_agregarIC) {
             AgregarEstudiante();
         } else if (e.getSource() == vista.btn_modificar) {
             ModificarEstudiante();
-        } else if (e.getSource() == vista.btn_eliminar) {
-            EliminarEstudiante();
+            Mostrar();
+           limpiarCampos();
         } else if (e.getSource() == vista.btn_buscar) {
             BuscarEstudiante();
         } else if (e.getSource() == vista.btn_limpiar) {
             limpiarCampos();
+        } else if(e.getSource()==vista.btn_mostrar){
+            Mostrar();
         }
     }
 
+
+    public void Seleccionar(JTable paramTabla, JTextField matricula, JTextField paramNombres, JTextField calif1, JTextField md2, JTextField md3, JTextField md4, JTextField cfinal){
+    
+        try {
+            
+            int fila = paramTabla.getSelectedRow();
+            
+            if(fila>=0){
+                matricula.setText((paramTabla.getValueAt(fila, 0).toString()));
+                paramNombres.setText((paramTabla.getValueAt(fila, 1).toString()));
+                calif1.setText((paramTabla.getValueAt(fila, 2).toString()));
+                cfinal.setText((paramTabla.getValueAt(fila, 6).toString()));
+                
+                
+                boolean dip=true;
+                
+                 if(Integer.parseInt(paramTabla.getValueAt(fila, 2).toString())>=70){
+                    vista.txt_estado1.setText("Aprobado");
+                 }else{
+                    vista.txt_estado1.setText("Reprobado");
+                    dip=false;
+                 }
+                 
+                 if(Integer.parseInt(paramTabla.getValueAt(fila, 3).toString())>=70){
+                    vista.txt_md2.setText("Aprobado");
+                 }else{
+                    vista.txt_md2.setText("Reprobado");
+                    dip=false;
+                 }
+                 
+                 if(Integer.parseInt(paramTabla.getValueAt(fila, 4).toString())>=70){
+                    vista.txt_md3.setText("Aprobado");
+                 }else{
+                    vista.txt_md3.setText("Reprobado");
+                    dip=false;
+                 }
+                 
+                 if(Integer.parseInt(paramTabla.getValueAt(fila, 5).toString())>=70){
+                    vista.txt_md4.setText("Aprobado");
+                 }else{
+                    vista.txt_md4.setText("Reprobado");
+                    dip=false;
+                 }
+                
+                 if(dip){
+                    vista.txt_estadoDiplomado.setText("Aprobado");
+                }else{
+                    vista.txt_estadoDiplomado.setText("Reprobado");
+                }
+                 
+            }else{
+                 JOptionPane.showMessageDialog(null, "Fila no seleccionada");
+            }
+            
+           
+        } catch (Exception e){
+            JOptionPane.showMessageDialog(null, "Error de Selección");
+        }
+    
+    }   
     
     
     
@@ -137,23 +199,18 @@ public class ControladorEstudiante implements ActionListener{
         
         estudiante.setMatricula(Integer.parseInt(vista.txt_matricula.getText()));
         estudiante.setNombre(vista.txt_nombre.getText());
-        estudiante.setDiplomado(vista.txt_diplomado.getText());
         estudiante.setCalif(Integer.parseInt(vista.txt_Calif.getText()));
     }
 
     public void llenarVistaDesdeEstudiante() {
-        vista.txt_id.setText(String.valueOf(estudiante.getId()));
         vista.txt_matricula.setText(String.valueOf(estudiante.getMatricula()));
         vista.txt_nombre.setText(estudiante.getNombre());
-        vista.txt_diplomado.setText(estudiante.getDiplomado());
         vista.txt_Calif.setText(String.valueOf(estudiante.getCalif()));
         
     }
 
     public void limpiarCampos() {
-        vista.txt_id.setText("");
         vista.txt_nombre.setText("");
-        vista.txt_diplomado.setText("");
         vista.txt_matricula.setText("");
         vista.txt_Calif.setText("");
     }
