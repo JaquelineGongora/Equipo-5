@@ -50,29 +50,7 @@ public class ControladorEstudiante implements ActionListener{
         }
     }
 
-    /*
-    //Función Para Ordenar Por Nombre
-    public List<Estudiante> OrdenarNombre(){
     
-        //Se obtienen los datos de la lista por medio del consultador
-        List<Estudiante> productos = consultador.CargarBase();
-        
-        //Collections ordena la lista por el nombre ascendentemente por medio del comparador que va comparando cada nombre
-        Collections.sort(productos, Comparator.comparing(Estudiante::getNombre, String.CASE_INSENSITIVE_ORDER));
-        //Se devuelve la lista ordenada
-        return productos;
-        
-    }
-    
-    //Función Para Ordenar Por Precio
-    public List<Estudiante> OrdenarPrecio() {
-        //Se obtienen los datos de la lista por medio del consultador
-        List<Estudiante> productos = consultador.CargarBase();
-        //Collections ordena la lista por precio de menor a mayor por medio del comparador que va comparando cada nombre
-        Collections.sort(productos, Comparator.comparing(Estudiante::getPrecio));
-        return productos;
-    }
-*/
     
     
      public void AgregarEstudiante() {
@@ -87,10 +65,26 @@ public class ControladorEstudiante implements ActionListener{
     }
 
     public void ModificarEstudiante() {
-        llenarEstudianteDesdeVista();
+        int fila =vista.tabla2.getSelectedRow();
+        estudiante.setMatricula(Integer.parseInt(vista.tabla2.getValueAt(fila, 0).toString()));
+        estudiante.setCalif1(Integer.parseInt(vista.tabla2.getValueAt(fila, 2).toString()));
+        estudiante.setCalif2(Integer.parseInt(vista.tabla2.getValueAt(fila, 3).toString()));
+        estudiante.setCalif3(Integer.parseInt(vista.tabla2.getValueAt(fila, 4).toString()));
+        estudiante.setCalif4(Integer.parseInt(vista.tabla2.getValueAt(fila, 5).toString()));
+        estudiante.setCalif(((estudiante.getCalif1()+estudiante.getCalif2()+estudiante.getCalif3()+estudiante.getCalif4())/4));
+        
+        
         if (consultador.modificar(estudiante)) {
             JOptionPane.showMessageDialog(null, "Estudiante modificado");
-            limpiarCampos();
+            
+            
+            if(estudiante.getCalif1()>=70){
+               vista.txt_estado1.setText("Aprobado");
+            }else{
+               vista.txt_estado1.setText("Reprobado");
+            }
+          
+          
         } else {
             JOptionPane.showMessageDialog(null, "Error al modificar");
             limpiarCampos();
