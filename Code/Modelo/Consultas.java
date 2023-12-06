@@ -132,12 +132,24 @@ public class Consultas {
     }
     
     public boolean modificar(Estudiante estudiante) {
-        try (Connection con = conexion.getConexion();
-             PreparedStatement ps = con.prepareStatement("UPDATE tablaEstudiantes SET calificacion=? WHERE id=?")) {
-            
-            ps.setInt(1, estudiante.getCalif());
-            ps.setInt(2, estudiante.getId());
-            return ps.executeUpdate() > 0;
+       if (estudiante.getCalif1() > 100 || estudiante.getCalif2() > 100 || estudiante.getCalif3() > 100 || estudiante.getCalif4() > 100) {
+         JOptionPane.showMessageDialog(null, "Error: La calificación no puede ser mayor de 100.", "Error", JOptionPane.ERROR_MESSAGE);
+        return false;
+        }else if(estudiante.getCalif1() < 100 || estudiante.getCalif2() < 100 || estudiante.getCalif3() < 100 || estudiante.getCalif4() <  100){
+        JOptionPane.showMessageDialog(null, "Error: La calificación no puede ser menor de 0.", "Error", JOptionPane.ERROR_MESSAGE);
+        return false;
+        }
+        
+        
+         try (Connection con = conexion.getConexion();
+           PreparedStatement ps = con.prepareStatement("UPDATE Ciberseguridad SET calif1=?, calif2=?, calif3=?, calif4=?, final=? WHERE matricula=?")){
+            ps.setInt(1, estudiante.getCalif1());
+            ps.setInt(2, estudiante.getCalif2());
+            ps.setInt(3, estudiante.getCalif3());
+            ps.setInt(4, estudiante.getCalif4());
+            ps.setInt(5, estudiante.getCalif());
+            ps.setInt(6, estudiante.getMatricula());
+             return ps.executeUpdate() > 0;
         } catch (SQLException e) {
             e.printStackTrace();
             return false;
