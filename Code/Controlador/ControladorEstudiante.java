@@ -103,9 +103,29 @@ public class ControladorEstudiante implements ActionListener{
     }
     
     public void BuscarEstudiante() {
-        estudiante.setId(Integer.parseInt(vista.txt_id.getText()));
+         estudiante.setMatricula(Integer.parseInt(vista.txt_matricula.getText()));
         if (consultador.buscar(estudiante)) {
             llenarVistaDesdeEstudiante();
+            
+            if(estudiante.getCalif1()>=70){
+               vista.txt_estado1.setText("Aprobado");
+            }else{
+               vista.txt_estado1.setText("Reprobado");
+            }
+            
+            if(estudiante.getCalif1()<70 || estudiante.getCalif1()<70 || estudiante.getCalif1()<70 || estudiante.getCalif1()<70 ){
+            
+                vista.txt_estadoDiplomado.setText("Aprobado");
+               
+            }else{
+                vista.txt_estadoDiplomado.setText("Reprobado");
+            }
+            
+            
+            int total = (estudiante.getCalif1() + estudiante.getCalif2() + estudiante.getCalif3() + estudiante.getCalif4())/4;
+            vista.txt_diplomado.setText(String.valueOf(total));
+            
+            
         } else {
             JOptionPane.showMessageDialog(null, "Error al buscar");
             limpiarCampos();
