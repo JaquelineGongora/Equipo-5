@@ -110,12 +110,20 @@ public class Consultas {
     }
     
     public boolean registrar(Estudiante estudiante) {
+        if (estudiante.getCalif1() > 100) {
+         JOptionPane.showMessageDialog(null, "Error: La calificación no puede ser mayor de 100.", "Error", JOptionPane.ERROR_MESSAGE);
+        return false;
+        }else if(estudiante.getCalif1()<0){
+        JOptionPane.showMessageDialog(null, "Error: La calificación no puede ser menor de 0.", "Error", JOptionPane.ERROR_MESSAGE);
+        return false;
+        }
+        
         try (Connection con = conexion.getConexion();
-             PreparedStatement ps = con.prepareStatement("INSERT INTO tablaEstudiantes (matricula, nombre, diplomado, calificacion) VALUES (?, ?, ?, ?)")) {
+            PreparedStatement ps = con.prepareStatement("INSERT INTO Ciberseguridad (matricula, nombre, calif1) VALUES (?, ?, ?)")) {
             ps.setInt(1, estudiante.getMatricula());
             ps.setString(2, estudiante.getNombre());
-            ps.setString(3, estudiante.getDiplomado());
-            ps.setInt(4, estudiante.getCalif());
+            ps.setInt(3, estudiante.getCalif1());
+          
             return ps.executeUpdate() > 0;
         } catch (SQLException e) {
             e.printStackTrace();
