@@ -1,6 +1,8 @@
 # Product Evolution:
 At the project's outset, the main idea was to create a web platform through which instructors of Educación Continua diploma and course programs at the Facultad de Matemáticas could register, modify, and view their students' grades. This platform would have a sole user category: the instructors of these diploma and course programs.
+
 During the second delivery, work focused on the documentation established since the first delivery, with the only relevant implementation being the code. This involved setting up a CRUD with a simple graphical interface connected to a local database.
+
 For the third delivery, the project underwent several changes. Among the most relevant are:
 1.	Changes were made to the graphical interfaces: the module's status (approved or failed) and the overall diploma status were identified.
 2.	The "display table" option was implemented, allowing the instructor to view previously registered student data.
