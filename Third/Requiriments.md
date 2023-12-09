@@ -3,6 +3,7 @@
 •	FR1-Assign grades: The system will allow the instructor type user to assign grades for each module of each registered student. 
 
 •	FR2- Grades edition: The system will allow the user to edit the students’ grades.
+
 •	FR3-Table: The system will allow the instructor type user to view the student's recorded grades in a table.
 
 •	FR4-View grades: The system will allow the student type user to view their respective grades for each course, module or diploma. 
