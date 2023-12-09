@@ -15,10 +15,10 @@
 
 
 # Non-functional Requirements:
-•	NRF1: Diploma programs will be divided into modules.
+•	NFR1: The system will indicate through the final grade whether the user passed or failed the course or diploma program (with a minimum passing grade of 60).
 
-•	NFR2: The system will indicate through the final grade whether the user passed or failed the course or diploma program (with a minimum passing grade of 70).
+•	NFR2: In diploma programs, the system will validate if the student completed and passed all modules before assigning a final grade. 
 
-•	NFR3: In diploma programs, the system will validate if the student completed and passed all modules before assigning a final grade. 
+•	NRF3: Diploma programs will be divided into modules.
 
-•	NFR4: The system will allow the user (instructor) to select the diploma or course to which they belong. 
+•	NFR4: The system will allow the user to select the diploma or course to which they belong. 
