@@ -1,6 +1,6 @@
-Prioritization of requirements:
+# Prioritization of requirements:
 
-Functional requirements:
+## Functional requirements:
 
 •	FR1: This is considered the highest-priority requirement because the project is based on recording grades for students.
 
