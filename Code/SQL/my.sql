@@ -1,27 +1,55 @@
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/SQLTemplate.sql to edit this template
- */
-/**
- * Author:  mauro
- * Created: 12 nov 2023
- */
+create database ec;  /*Crear base*/
 
-create database db_tienda;
+use ec;  /* Usar Base de datos*/
 
-use db_tienda;
+/*Crear tabla*/
 
-CREATE TABLE tablaTienda(
+CREATE TABLE Ciberseguridad(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    codigo VARCHAR(50) NOT NULL,
+	matricula VARCHAR(50) NOT NULL,
     nombre VARCHAR(50) NOT NULL,
-    precio INT NOT NULL
+    calif1 INT DEFAULT 0,
+    calif2 INT DEFAULT 0,
+    calif3 INT DEFAULT 0,
+    calif4 INT DEFAULT 0,
+    final INT DEFAULT 0
 );
+
+CREATE TABLE Usuarios(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(50) NOT NULL,
+    contrasenia VARCHAR(50) NOT NULL,
+	permiso INT NOT NULL
+);
+
+/*Insertar usuarios*/
+
+INSERT INTO Usuarios(usuario, contrasenia, permiso)
+VALUES ( 'EducacionContinua', 'edu2023', 1);
+
+INSERT INTO Usuarios(usuario, contrasenia, permiso)
+VALUES ( 'MauroKuh', '12344', 2);
+
 show tables;
+/*Insertar Datos*/
+INSERT INTO Ciberseguridad(matricula, nombre)
+VALUES ( '19200637', 'Mauro Kuh Esquivel');
+INSERT INTO Ciberseguridad(matricula, nombre)
+VALUES ( '1920088', 'Mariana Gonzalez Canul');
+INSERT INTO Ciberseguridad(matricula, nombre)
+VALUES ( '19200230', 'Jaqueline Gongora Tun');
+INSERT INTO Ciberseguridad(matricula, nombre)
+VALUES ( '2202020', 'Isaias Rodriguez Rosado');
+INSERT INTO Ciberseguridad(matricula, nombre)
+VALUES ( '219292', 'Jose Luis Lara');
+INSERT INTO Ciberseguridad(matricula, nombre)
+VALUES ( '19292929', 'Jesus Kuh Esquivel');
+INSERT INTO Ciberseguridad(matricula, nombre)
+VALUES ( '220303', 'Julio Alcocer Duran');
+INSERT INTO Ciberseguridad(matricula, nombre)
+VALUES ( '219292', 'Johan Alvares Llanos');
 
-INSERT INTO tablaTienda(codigo, nombre,  precio)
-VALUES ( '2233', 'Chicle', 2);
-INSERT INTO tablaTienda(codigo, nombre,  precio)
-VALUES ( '3728', 'Galleta', 4);
-
-select * from tablaTienda;
+/*Mostrar Datos*/
+select * from Ciberseguridad;
+/*Modificar Datos*/
+UPDATE tablaEstudiantes SET calificacion = 80 WHERE id = 4;
