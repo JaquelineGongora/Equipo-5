@@ -17,22 +17,22 @@
 |Video-Presentation|Jaqueline, Eduardo| 2/2 | 2| 
 |Video-Edition| Ricardo | 4/4| 4|
 |------------|-------------|----------------|-----------|
-|User cases diagram|Mariana, Jaqueline |1 |1/1  |
-|Class diagram|Jaqueline|3|3/3|
-|Use cases|Mariana, Jaqueline | 3| 3/3|
-|Video edition| Mariana |4 | 4/4|
-|Metric contribution| Mariana,Jaqueline | 2| 2/2|
-|Binnacle| Mariana| 3|3/3|
-|Meetings| Mariana, Jaqueline, Mauro, Ricardo, Eduardo| 1 | 1/1|
-|Updates Summary| Mauro| 2|2/2|
-|Sprints| Mariana, Jaqueline|3|3/3|
-|Presentation| Jaqueline| 5| 5/5|
-|Competencies|Mauro| 3|3/3|
-|Requirements priorization| Mariana, Jaqueline| 1|1/1|
-|Repository organization|Mauro| 3|3/3|
-|DB creation|Ricardo,Mauro| 2|2/2|
-|DB conexion| Eduardo, Ricardo| 3| 3/3|
-|Code|Ricardo, Mauro| 5|5/5|
+|User cases diagram|Mariana, Jaqueline |1/1 |1  |
+|Class diagram|Jaqueline|3/3|3|
+|Use cases|Mariana, Jaqueline | 3/3| 3|
+|Video edition| Mariana |4/4 | 4|
+|Metric contribution| Mariana,Jaqueline | 2/2| 2|
+|Binnacle| Mariana| 3/3|3|
+|Meetings| Mariana, Jaqueline, Mauro, Ricardo, Eduardo| 1/1 | 1|
+|Updates Summary| Mauro| 2/2|2|
+|Sprints| Mariana, Jaqueline|3/3|3|
+|Presentation| Jaqueline| 5/5| 5|
+|Competencies|Mauro| 3/3|3|
+|Requirements priorization| Mariana, Jaqueline| 1/1|1|
+|Repository organization|Mauro| 3/3|3|
+|DB creation|Ricardo,Mauro| 2/2|2|
+|DB conexion| Eduardo, Ricardo| 3/3| 3|
+|Code|Ricardo, Mauro| 5/5|5|
 |------------|-------------|----------------|-----------|
 |Final delivery resume|Jaqueline, Mauro|2/2|2|
 |Binnacle| Mariana|3/3 |3|
