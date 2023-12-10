@@ -1,27 +1,33 @@
-package Modelo;
+package BD;
 
+import Modelo.Estudiante;
+import Modelo.Usuario;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import javax.swing.JOptionPane;
 import java.util.ArrayList;
 import java.util.List;
+import java.sql.Statement;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
 
-public class Consultas {
-    
+
+public class Consultador {
     Conexion conexion;
     
 
-    public Consultas(){
+    public Consultador(){
         conexion = new Conexion();
     }
     
-   
-    //Funcion para obtener la base de datos, devuelve una Lista de Productos
     public List<Estudiante> CargarBase() {
         
         //Query para poder ver seleccionar los productos en MySql
-        String query = "select * from tablaEstudiantes";
+        String query = "SELECT * FROM Ciberseguridad";
         
         //Se inicia una conexión y se carga en un statement el query 
          try (Connection c = conexion.getConexion();
@@ -29,8 +35,8 @@ public class Consultas {
          
         
              ResultSet rs = ps.executeQuery();
-             
-             List<Estudiante> estudiante = new ArrayList<>();
+             //Se crea una lista para guardar los productos
+             List<Estudiante> estudiantes = new ArrayList<>();
              //Se recorre la lista
              while(rs.next()){
                 
@@ -40,14 +46,17 @@ public class Consultas {
                 p.setId(rs.getInt(1));
                 p.setMatricula(rs.getInt(2));
                 p.setNombre(rs.getString(3));
-                p.setCalif(rs.getInt(4));
-                p.setDiplomado(rs.getString(7));
+                p.setCalif1(rs.getInt(4));
+                p.setCalif2(rs.getInt(5));
+                p.setCalif3(rs.getInt(6));
+                p.setCalif4(rs.getInt(7));
+                p.setCalif(rs.getInt(8));
                 //Se agrega el producto a la lista
-                estudiante.add(p);
+                estudiantes.add(p);
              }
              
-             
-             return estudiante;
+             //Se devuelve la lista productos
+             return estudiantes;
               
              
          }catch(SQLException e){
@@ -56,7 +65,7 @@ public class Consultas {
              
          }
     }
-
+    
     public void MostrarAlumnos(JTable paramTabla){
     
         Conexion objetoConexion = new Conexion();
@@ -109,7 +118,9 @@ public class Consultas {
            
     }
     
+ 
     public boolean registrar(Estudiante estudiante) {
+        
         if (estudiante.getCalif1() > 100) {
          JOptionPane.showMessageDialog(null, "Error: La calificación no puede ser mayor de 100.", "Error", JOptionPane.ERROR_MESSAGE);
         return false;
@@ -132,11 +143,13 @@ public class Consultas {
     }
     
     public boolean modificar(Estudiante estudiante) {
-       if (estudiante.getCalif1() > 100 || estudiante.getCalif2() > 100 || estudiante.getCalif3() > 100 || estudiante.getCalif4() > 100) {
-         JOptionPane.showMessageDialog(null, "Error: La calificación no puede ser mayor de 100.", "Error", JOptionPane.ERROR_MESSAGE);
+      
+        
+        if (estudiante.getCalif1() > 100 || estudiante.getCalif2() > 100 || estudiante.getCalif3() > 100 || estudiante.getCalif4() > 100) {
+        JOptionPane.showMessageDialog(null, "Error: Calificacion mayor a 100");
         return false;
-        }else if(estudiante.getCalif1() < 100 || estudiante.getCalif2() < 100 || estudiante.getCalif3() < 100 || estudiante.getCalif4() <  100){
-        JOptionPane.showMessageDialog(null, "Error: La calificación no puede ser menor de 0.", "Error", JOptionPane.ERROR_MESSAGE);
+        }else if(estudiante.getCalif1() < 0 || estudiante.getCalif2() < 0 || estudiante.getCalif3() < 0 || estudiante.getCalif4() <  0){
+        JOptionPane.showMessageDialog(null, "Error: Calificación menor a 0");
         return false;
         }
         
@@ -154,30 +167,24 @@ public class Consultas {
             e.printStackTrace();
             return false;
         }
+        
     }
     
-    public boolean eliminar(Estudiante estudiante) {
-        try (Connection con = conexion.getConexion();
-             PreparedStatement ps = con.prepareStatement("DELETE FROM tablaEstudiantes WHERE id=?")) {
-            ps.setInt(1, estudiante.getId());
-            return ps.executeUpdate() > 0;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return false;
-        }
-    }
     
     public boolean buscar(Estudiante estudiante) {
         try (Connection con = conexion.getConexion();
-             PreparedStatement ps = con.prepareStatement("SELECT * FROM tablaEstudiantes WHERE id=?")) {
-            ps.setInt(1, estudiante.getId());
+             PreparedStatement ps = con.prepareStatement("SELECT * FROM Ciberseguridad WHERE matricula=?")) {
+            ps.setInt(1, estudiante.getMatricula());
             try (ResultSet rs = ps.executeQuery()) {
                 if (rs.next()) {
                     estudiante.setId(rs.getInt("id"));
                     estudiante.setMatricula(rs.getInt("matricula"));
                     estudiante.setNombre(rs.getString("nombre"));
-                    estudiante.setDiplomado(rs.getString("diplomado"));
-                    estudiante.setCalif(rs.getInt("calificacion"));
+                    estudiante.setCalif1(rs.getInt("calif1"));
+                    estudiante.setCalif2(rs.getInt("calif2"));
+                    estudiante.setCalif3(rs.getInt("calif3"));
+                    estudiante.setCalif4(rs.getInt("calif4"));
+                    estudiante.setCalif(rs.getInt("final"));
                     return true;
                 }
             }
@@ -188,4 +195,24 @@ public class Consultas {
         }
     }
     
+    public boolean buscarUsuario(Usuario usuario) {
+        try (Connection con = conexion.getConexion();
+            PreparedStatement ps = con.prepareStatement("SELECT * FROM Usuarios WHERE usuario = ? AND contrasenia = ?")) {
+            ps.setString(1, usuario.getNombre());
+            ps.setString(2, usuario.getContrasenia());
+            try (ResultSet rs = ps.executeQuery()) {
+                if (rs.next()) {
+                   usuario.setTipo(rs.getInt("permiso"));
+                    return true;
+                }
+            }
+             return false;
+        } catch (SQLException e) {
+            e.printStackTrace();
+             return false;
+        }
+    }
+    
+    
 }
+
