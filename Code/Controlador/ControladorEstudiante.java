@@ -51,7 +51,8 @@ public class ControladorEstudiante implements ActionListener{
     Estudiante estudiante;
     InicioEstudiante vista;
     Consultador consultas;
-    
+
+    //Constructor
     public ControladorEstudiante(Estudiante estudiante, InicioEstudiante vista, Consultador consultas){
         this.estudiante = estudiante;
         this.vista = vista;
@@ -60,6 +61,7 @@ public class ControladorEstudiante implements ActionListener{
         this.vista.contancia_btn.addActionListener(this);
     }
     
+    //Desplegar menú
      @Override
     public void actionPerformed(ActionEvent e) {
        
@@ -77,12 +79,15 @@ public class ControladorEstudiante implements ActionListener{
         
     }
     
+    //busca al estudiante con su matricula y despliega tabla
     public void buscar(){
-        
+
+        //guarda los datos de estudiante
         llenarDesdeVista();
    
         if(consultas.buscar(estudiante)){
-    
+
+            //crea una tabla
             DefaultTableModel modelo = new DefaultTableModel();
             TableRowSorter<TableModel> OrdenarTabla = new TableRowSorter<TableModel>(modelo);
             vista.tablaEst.setRowSorter(OrdenarTabla);
@@ -98,7 +103,8 @@ public class ControladorEstudiante implements ActionListener{
             vista.tablaEst.setModel(modelo);
         
             String[] datos = new String[7];
-        
+
+            //llena la tabla
             datos[0]=String.valueOf(estudiante.getMatricula());
             datos[1]=String.valueOf(estudiante.getNombre());
             datos[2]=String.valueOf(estudiante.getCalif1());
