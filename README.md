@@ -63,7 +63,7 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 - [Metric]()
 
 ## Final Presentation
-- [Video]()
+- [Video](https://youtu.be/za00__KkcK0?si=QPtNkquqAK2Dq9rg)
 
 ## Reflexion
 - [Competences]()
