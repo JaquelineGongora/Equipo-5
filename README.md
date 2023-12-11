@@ -20,6 +20,7 @@ This project makes it possible:
 - Generation and download of the previous table via a PDF were incorporated.
 - Generation and download of certificates were added for students who have completed and passed a module, diploma, or course.
 - A graphical interface was added where students can view their grades by entering their registration numbers and selecting the course, diploma, or module they attended.
+  
 The project follows the MVC paradigm, featuring models like "Estudiante" (Student) and "Usuario" (User), along with controllers dedicated to actions such as search and modification. The graphical interfaces, or views, range from login to PDF report generation. Each component plays a distinct role, offering specific functionalities for instructors and students. The interfaces are designed for an efficient and well-structured user experience, addressing the unique needs of each user type in an organized manner.
 
 ## Value Proposition:
