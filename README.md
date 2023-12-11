@@ -1,4 +1,4 @@
-# Equipo-5
+# Team 5
   # Educación Continua FMAT Register Grades Platform
 
 [![Logo](/Img/Educon.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
