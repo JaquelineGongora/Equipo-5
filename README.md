@@ -13,14 +13,9 @@ Web platform where instructors of courses and diplomas from the Faculty of Mathe
 Create a platform for "Educación Continua" that allows for the registration, modification, and review of student grades.
 
 # 📘 Description:
-This project makes it possible:
-- Changes were made to the graphical interfaces: the module's status (approved or failed) and the overall diploma status were identified.
-- The "display table" option was implemented, allowing the instructor to view previously registered student data.
-- The function of editing grades from the table was added.
-- Generation and download of the previous table via a PDF were incorporated.
-- Generation and download of certificates were added for students who have completed and passed a module, diploma, or course.
-- A graphical interface was added where students can view their grades by entering their registration numbers and selecting the course, diploma, or module they attended.
-The project follows the MVC paradigm, featuring models like "Estudiante" (Student) and "Usuario" (User), along with controllers dedicated to actions such as search and modification. The graphical interfaces, or views, range from login to PDF report generation. Each component plays a distinct role, offering specific functionalities for instructors and students. The interfaces are designed for an efficient and well-structured user experience, addressing the unique needs of each user type in an organized manner.
+Our main project objective is to have the functionality to record and edit student grades, as well as previously registered courses and diplomas. However, it also allows access through a user and password that has been generated in advance. It also features two views: one for instructors and another for students. Within the instructor interface, there is access to a table where students data and grades will be recorded. It also enables direct editing from this interface, and once the changes are saved, there is an option to generate a PDF report. On the other hand, in the student interface, there is the option to generate personalized constancies containing the name, registration number, and the associated course. Finally, a functionality that the system will provide for both types of users is the ability to search for data using the student's registration number.
+
+It is important to highlight the most relevant exceptions of the project, as it will not grant access to users not registered in the database. Additionally, when instructors input grades, the system will not allow negative numbers or values greater than 100.
 
 ## 📖 Value Proposition:
 To have the grades of students in diploma programs and courses from "Facultad de matemáticas" available on a web platform, where instructors can register and edit the students' grades.
