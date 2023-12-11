@@ -1,7 +1,7 @@
-# Equipo-5
+# Team 5
   # Educación Continua FMAT Register Grades Platform
 
-[![Logo](/imagen/Educon.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
+[![Logo](/Img/Educon.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
 
 ## Problem:
 The instructors of "Educación continua" don´t have a website where they can register and edit their students' grades.
@@ -28,52 +28,11 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 ## Courses:
 - [Open Source Tools for Machine Learning](https://www.matematicas.uady.mx/vinculacion/educacion-continua/78-facultad/vinculacion/educacion-continua/cursos/707-curso-de-herramientas-open-source-para-aprendizaje-automatico)
 
+## Sprints
 
-## Product
-- [Description]()
-- [Evolution]()
-
-
-## Requeriments 
-- [Functional Requirements]()
-- [Non-Functional Requirements]()
-- [Priorization]()
-  ### Artefacts
-  - [Case Use]()
-  - [User Stories]()
-  - [Case Use Diagram]()
-
-## Design
-- [Class Diagram]()
-- [Verification]()
-- [MVC]()
-
-## Code
-- [Model](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Modelo)
-- [View](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Vista)
-- [Controler](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Controlador)
-- [Main](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Main)
-- [SQL](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/SQL)
-- [Data base and consulter](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/BD)
-- [Resources](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/img)
-
-## Procces
-- [Description]()
-- [Gestion]()
-- [Metric]()
-
-## Final Presentation
-- [Video]()
-
-## Reflexion
-- [Competences]()
-- [Constructive criticism]()
-
-## Deliverys:
-- [First](https://github.com/JaquelineGongora/Equipo-5/tree/First)
-- [Second](https://github.com/JaquelineGongora/Equipo-5/tree/Second)
-- [Third](https://github.com/JaquelineGongora/Equipo-5/tree/Third)
-
+- 📝[First](https://github.com/JaquelineGongora/Equipo-5/tree/First)
+- 📝[Second](https://github.com/JaquelineGongora/Equipo-5/tree/Second)
+- 📝[Final](https://github.com/JaquelineGongora/Equipo-5/tree/Third)
 
 ## Group members and link profiles:
 1. Góngora Tun Jaqueline       [LinkedIn](https://www.linkedin.com/in/jaqueline-g%C3%B3ngora-313649268)          [GitHub](https://github.com/JaquelineGongora)
