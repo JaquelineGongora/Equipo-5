@@ -1,4 +1,4 @@
-#Product Evolution:
+# Product Evolution:
 
 At the project's outset, the main idea was to create a web platform through which instructors of Educación Continua diploma and course programs at the Facultad de Matemáticas could register, modify, and view their students' grades. This platform would have a sole user category: the instructors of these diploma and course programs.
 
