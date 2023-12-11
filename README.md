@@ -30,7 +30,8 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 
 
 ## Product
-- [Description]()
+- Description:
+  
 - [Evolution](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Product/Evolution.md)
 
 
@@ -45,17 +46,15 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 ## Design
 - [Class Diagram](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Design/class_diagram.pdf)
 - [Class Diagram Evolution](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Requeriments/CD%20Evolution.pdf)
-- [Verification]()
-- [MVC]()
 
-## Code
-- [Model](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Modelo)
-- [View](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Vista)
-- [Controler](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Controlador)
-- [Main](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Main)
-- [SQL](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/SQL)
-- [Data base and consulter](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/BD)
-- [Resources](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/img)
+  ### Code
+  - [Model](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Modelo)
+  - [View](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Vista)
+  - [Controler](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Controlador)
+  - [Main](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Main)
+  - [SQL](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/SQL)
+  - [Data base and consulter](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/BD)
+  - [Resources](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/img)
 
 ## Procces
 - [Description](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Sprints.pdf)
