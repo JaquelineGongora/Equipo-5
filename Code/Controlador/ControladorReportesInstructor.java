@@ -66,12 +66,15 @@ public class ControladorReportesInstructor implements ActionListener{
        
     }
     
+    
      @Override
     public void actionPerformed(ActionEvent e) {
         
         if(e.getSource()==vista.pdf_button){
+            // Cargar datos de estudiantes desde la base de datos
             List<Estudiante> estudiantes = consultador.CargarBase();
             try {
+             // Generar un informe PDF utilizando los datos de los estudiantes cargados
                 Hacerpdf(estudiantes);
             } catch (BadElementException ex) {
                 Logger.getLogger(ControladorReportesInstructor.class.getName()).log(Level.SEVERE, null, ex);
@@ -80,6 +83,7 @@ public class ControladorReportesInstructor implements ActionListener{
             }
         }else if(e.getSource()==vista.contancia_btn){
             try {
+                // Generar una constancia utilizando los datos del estudiante
                 HacerConstancia();
             } catch (DocumentException ex) {
                 Logger.getLogger(ControladorReportesInstructor.class.getName()).log(Level.SEVERE, null, ex);
@@ -88,12 +92,15 @@ public class ControladorReportesInstructor implements ActionListener{
             }
         }
     }
-    
+
+    // Método para generar una constancia en formato PDF
     public void HacerConstancia() throws FileNotFoundException, DocumentException, BadElementException, IOException{
- 
+
+        // Establecer la matrícula del estudiante desde la vista
         estudiante.setMatricula(Integer.parseInt(vista.txt_matricula.getText()));
+         // Verificar si el estudiante con la matrícula dada existe
         if(consultador.buscar(estudiante)){
-        
+            // Verificar si el estudiante aprobó todos los módulos
             if(estudiante.getCalif1()<=60|| estudiante.getCalif2()<=60 || estudiante.getCalif3()<=60 || estudiante.getCalif4()<=60){
                 JOptionPane.showMessageDialog(null, "No aprobó el diplomado", "Error", JOptionPane.ERROR_MESSAGE);   
             return;  
@@ -103,11 +110,13 @@ public class ControladorReportesInstructor implements ActionListener{
           JOptionPane.showMessageDialog(null, "Matricula no encontrada", "Error", JOptionPane.ERROR_MESSAGE);   
           return;
         }
-        
+
+        // Extraer detalles del estudiante para la constancia
         String nombre = estudiante.getNombre();
         String matricula = String.valueOf(estudiante.getMatricula());
         String diplomado = vista.jComboBox1.getSelectedItem().toString();
-        
+
+        // Seleccionar un directorio para guardar el PDF generado
         String path = "";
         
         JFileChooser j=new JFileChooser();
@@ -119,12 +128,14 @@ public class ControladorReportesInstructor implements ActionListener{
         
             path=j.getSelectedFile().getPath(); 
         }
-        
+
+         // Crear un nuevo documento PDF
         Document doc = new Document();
         doc.setMargins(20, 20, 20, 20); // Establecer márgenes
         doc.addCreationDate(); // Agregar fecha de creación
         
         try{
+            // Inicializar el escritor PDF
             PdfWriter writer = PdfWriter.getInstance(doc, new FileOutputStream(path+"\\constancia.pdf"));
            
             writer.setPageEvent(new PdfPageEventHelper() {
@@ -231,7 +242,8 @@ public class ControladorReportesInstructor implements ActionListener{
            Image firma = Image.getInstance("C:\\Users\\mauro\\Downloads\\EducacionC\\EC\\src\\main\\java\\img\\firma.png");
            firma.scaleToFit(250, 250);  // Ajusta el tamaño del logo según tus necesidades
            firma.setAlignment(Chunk.ALIGN_CENTER); 
-            
+
+            //Agrega los parrafos e imagenes
            doc.add(new Paragraph(" ")); 
            doc.add(parrafoFecha);
            doc.add(logo);
@@ -249,10 +261,11 @@ public class ControladorReportesInstructor implements ActionListener{
         doc.close(); 
     }
     
+    // Método para generar un informe PDF con la lista de estudiantes
     public void Hacerpdf(List<Estudiante> estudiantes) throws BadElementException, IOException{
         
         
-        
+         // Seleccionar un directorio para guardar el PDF generado
         String path = "";
         
         JFileChooser j=new JFileChooser();
@@ -266,14 +279,17 @@ public class ControladorReportesInstructor implements ActionListener{
             path=j.getSelectedFile().getPath(); 
         }
         
-        
+          // Crear un nuevo documento PDF
         Document doc = new Document();
         doc.setMargins(20, 20, 20, 20); // Establecer márgenes
         doc.addCreationDate(); // Agregar fecha de creación
         
         try{
+             // Inicializar el escritor PDF
             PdfWriter writer = PdfWriter.getInstance(doc, new FileOutputStream(path+"\\abc123.pdf"));
-           
+        
+            // Agregar evento de página para número de página y pie de página
+
              writer.setPageEvent(new PdfPageEventHelper() {
              @Override
             
@@ -347,11 +363,13 @@ public class ControladorReportesInstructor implements ActionListener{
             tbl.setWidths(columnWidths);
             
             // Establecer el color de fondo para las celdas de encabezado
-                BaseColor headerColor = new BaseColor(150, 220, 235); // Puedes ajustar estos valores según tu preferencia
+                BaseColor headerColor = new BaseColor(150, 220, 235); 
                 Font headerFont = new Font(Font.FontFamily.HELVETICA, 12, Font.BOLD, BaseColor.BLACK); // Color del texto en las celdas de encabezado
 
                 // Añadir las celdas de encabezado a la tabla con color de fondo
                 PdfPCell headerCell;
+
+        
 
                 headerCell = new PdfPCell(new Phrase("Matricula", headerFont));
                 headerCell.setBackgroundColor(headerColor);
@@ -385,7 +403,7 @@ public class ControladorReportesInstructor implements ActionListener{
                 headerCell.setBackgroundColor(headerColor);
                 tbl.addCell(headerCell);
              
-            
+            //Llenar datos de la tabña
             for(Estudiante estudiante : estudiantes) {
                 tbl.addCell(String.valueOf(estudiante.getMatricula()));
                 PdfPCell nombreCell = new PdfPCell(new Phrase(estudiante.getNombre()));
