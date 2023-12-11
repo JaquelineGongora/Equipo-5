@@ -31,20 +31,20 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 
 ## Product
 - [Description]()
-- [Evolution]()
+- [Evolution](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Product/Evolution.md)
 
 
 ## Requeriments 
-- [Functional Requirements]()
-- [Non-Functional Requirements]()
-- [Priorization]()
+- [Requirements](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Requeriments/Requiriments.md)
+- [Requirements Evolution](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Requeriments/Evolution.md)
+- [Priorization](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Requeriments/Prioritization.md)
   ### Artefacts
-  - [Case Use]()
-  - [User Stories]()
-  - [Case Use Diagram]()
+  - [User Case specification](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Requeriments/User%20cases%20specification.pdf)
+  - [Case Use Diagram](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Requeriments/UC_diagram.jpg)
 
 ## Design
 - [Class Diagram]()
+- [Class Diagram Evolution](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Requeriments/CD%20Evolution.pdf)
 - [Verification]()
 - [MVC]()
 
@@ -58,15 +58,18 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 - [Resources](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/img)
 
 ## Procces
-- [Description]()
-- [Gestion]()
-- [Metric]()
+- [Description](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Sprints.pdf)
+- [Gestion](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Gestion%20of%20the%20proyect.md)
+- [Metric (sprint)](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Contribution%20metric3.md)
+- [Metric (proyect)](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Proyect%20contribution%20metric.md)
+- [Binacle](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Binnacle3.md)
 
 ## Final Presentation
 - [Video](https://youtu.be/za00__KkcK0?si=QPtNkquqAK2Dq9rg)
 
 ## Reflexion
-- [Competences]()
+- [Generic Competences](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Reflexion/Generic_competecies.md)
+- [Specific Comoetences](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Reflexion/Specific_Competencies.md)
 - [Constructive criticism](https://github.com/JaquelineGongora/Equipo-5/tree/Third/Reflexion)
 
 ## Group members and link profiles:
