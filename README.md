@@ -67,7 +67,7 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 
 ## Reflexion
 - [Competences]()
-- [Constructive criticism]()
+- [Constructive criticism](https://github.com/JaquelineGongora/Equipo-5/tree/Third/Reflexion)
 
 ## Group members and link profiles:
 1. Góngora Tun Jaqueline       [LinkedIn](https://www.linkedin.com/in/jaqueline-g%C3%B3ngora-313649268)          [GitHub](https://github.com/JaquelineGongora)
