@@ -12,6 +12,16 @@ Web platform where instructors of courses and diplomas from the Faculty of Mathe
 ## Objective:
 Create a platform for "Educación Continua" that allows for the registration, modification, and review of student grades.
 
+## Project
+This project makes it possible:
+- Changes were made to the graphical interfaces: the module's status (approved or failed) and the overall diploma status were identified.
+- The "display table" option was implemented, allowing the instructor to view previously registered student data.
+- The function of editing grades from the table was added.
+- Generation and download of the previous table via a PDF were incorporated.
+- Generation and download of certificates were added for students who have completed and passed a module, diploma, or course.
+- A graphical interface was added where students can view their grades by entering their registration numbers and selecting the course, diploma, or module they attended.
+The project follows the MVC paradigm, featuring models like "Estudiante" (Student) and "Usuario" (User), along with controllers dedicated to actions such as search and modification. The graphical interfaces, or views, range from login to PDF report generation. Each component plays a distinct role, offering specific functionalities for instructors and students. The interfaces are designed for an efficient and well-structured user experience, addressing the unique needs of each user type in an organized manner.
+
 ## Value Proposition:
 To have the grades of students in diploma programs and courses from "Facultad de matemáticas" available on a web platform, where instructors can register and edit the students' grades.
 
