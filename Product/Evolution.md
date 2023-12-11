@@ -7,13 +7,8 @@ During the second delivery, work focused on the documentation established since 
 For the third delivery, the project underwent several changes. Among the most relevant are:
 
 1.	Changes were made to the graphical interfaces: the module's status (approved or failed) and the overall diploma status were identified.
-2.	
-3.	The "display table" option was implemented, allowing the instructor to view previously registered student data.
-4.	
-5.	The function of editing grades from the table was added.
-6.	
-7.	Generation and download of the previous table via a PDF were incorporated.
-8.	
-9.	Generation and download of certificates were added for students who have completed and passed a module, diploma, or course.
-10.	
-11.	A graphical interface was added where students can view their grades by entering their registration numbers and selecting the course, diploma, or module they attended.
+2.	The "display table" option was implemented, allowing the instructor to view previously registered student data.
+3.	The function of editing grades from the table was added.
+4.	Generation and download of the previous table via a PDF were incorporated.
+5.	Generation and download of certificates were added for students who have completed and passed a module, diploma, or course.
+6.	A graphical interface was added where students can view their grades by entering their registration numbers and selecting the course, diploma, or module they attended.
