@@ -57,8 +57,7 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
   - [Resources](https://github.com/JaquelineGongora/Equipo-5/tree/Third/Code/Libreries)
 
 ## Procces
-- [Description](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Sprints.pdf)
-- [Gestion](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Gestion%20of%20the%20proyect.md)
+- [Description](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Sprints.
 - [Metric (sprint)](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Contribution%20metric3.md)
 - [Metric (proyect)](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Proyect%20contribution%20metric.md)
 - [Binacle](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Binnacle3.md)
