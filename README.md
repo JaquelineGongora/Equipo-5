@@ -54,7 +54,7 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
   - [Main](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Main)
   - [SQL](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/SQL)
   - [Data base and consulter](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/BD)
-  - [Resources](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/img)
+  - [Resources](https://github.com/JaquelineGongora/Equipo-5/tree/Third/Code/Libreries)
 
 ## Procces
 - [Description](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Proces/Sprints.pdf)
