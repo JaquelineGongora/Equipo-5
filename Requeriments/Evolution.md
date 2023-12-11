@@ -1,3 +1,4 @@
+# Requiriments Evolution and Changes
 During the first and second deliveries, the requirements did not undergo modifications because the established requirements were the ones that could be implemented at that time. The team did not add requirements that could not be fulfilled, so during the second delivery, where the most significant progress was the code, the documentation, including the requirements, remained unchanged.
 
 Now, having concluded with the previously established requirements, in this third delivery, the team decided to modify the requirements to add functionalities to the system. Throughout the project's development, a better understanding of the system being worked on was generated, making it possible to add requirements and modify others to give the project a more defined focus, greater scope, and greater relevance than simply generating a CRUD.
