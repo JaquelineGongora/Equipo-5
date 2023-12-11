@@ -1,0 +1,5 @@
+# Description of the proyect
+
+Our main project objective is to have the functionality to record and edit student grades, as well as previously registered courses and diplomas. However, it also allows access through a user and password that has been generated in advance. It also features two views: one for instructors and another for students. Within the instructor interface, there is access to a table where students data and grades will be recorded. It also enables direct editing from this interface, and once the changes are saved, there is an option to generate a PDF report. On the other hand, in the student interface, there is the option to generate personalized constancies containing the name, registration number, and the associated course. Finally, a functionality that the system will provide for both types of users is the ability to search for data using the student's registration number.
+
+It is important to highlight the most relevant exceptions of the project, as it will not grant access to users not registered in the database. Additionally, when instructors input grades, the system will not allow negative numbers or values greater than 100.
