@@ -68,7 +68,7 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 
 ## Reflexion
 - [Generic Competences](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Reflexion/Generic_competecies.md)
-- [Specific Comoetences](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Reflexion/Specific_Competencies.md)
+- [Specific Competences](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Reflexion/Specific_Competencies.md)
 - [Constructive criticism](https://github.com/JaquelineGongora/Equipo-5/tree/Third/Reflexion)
 
 ## Group members and link profiles:
