@@ -70,9 +70,9 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 - [Constructive criticism]()
 
 ## Deliverys:
--[First] https://github.com/JaquelineGongora/Equipo-5/tree/First
-- [Second] https://github.com/JaquelineGongora/Equipo-5/tree/Second
-- [Third] https://github.com/JaquelineGongora/Equipo-5/tree/Third
+- [First](https://github.com/JaquelineGongora/Equipo-5/tree/First)
+- [Second](https://github.com/JaquelineGongora/Equipo-5/tree/Second)
+- [Third](https://github.com/JaquelineGongora/Equipo-5/tree/Third)
 
 
 ## Group members and link profiles:
