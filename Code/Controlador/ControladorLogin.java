@@ -26,7 +26,8 @@ public class ControladorLogin implements ActionListener {
     AccionesUI inicio = new AccionesUI();
     InicioEstudiante inEst= new InicioEstudiante();
     Consultador consultas = new Consultador();
-    
+
+    //Constructor
     public ControladorLogin(Usuario usuario, Login vista, Consultador consultas, AccionesUI inicio, InicioEstudiante inEst){
     
        this.usuario=usuario;
@@ -50,19 +51,24 @@ public class ControladorLogin implements ActionListener {
         }
         
     }
-    
+
+    //Verifica que los datos de usuario y contraseña sean los correctos para acceder
     public void Verificar(){
-    
+
+        //se guardan los datos en el objeto usuario
         llenarUsuario();
-        
+
+        //busca al usuario y si este existe devuelve el tipo de usuario
         if (consultas.buscarUsuario(usuario)) {
             
            switch(usuario.getTipo()){
-       
+
+                   //desplega vista de instructor
             case 1:
                 inicio.setVisible(true);
                 vista.dispose();
                 return;
+                     //desplega vista de estudiante
             case 2:
                 inEst.setVisible(true);
                 vista.dispose();
@@ -73,7 +79,8 @@ public class ControladorLogin implements ActionListener {
             JOptionPane.showMessageDialog(null, "Datos incorrectos o Usuario no existente", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
-    
+
+    //guarda los datos nombre y contraseña en el objeto estudiante
      public void llenarUsuario() {
         
         usuario.setNombre(vista.txt_user.getText());
