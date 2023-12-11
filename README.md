@@ -1,7 +1,7 @@
 # Equipo-5
   # Educación Continua FMAT Register Grades Platform
 
-[![Logo](/imagen/Educon.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
+[![Logo](/Img/Educon.jpg)](https://www.matematicas.uady.mx/vinculacion/educacion-continua)
 
 ## Problem:
 The instructors of "Educación continua" don´t have a website where they can register and edit their students' grades.
@@ -43,7 +43,7 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
   - [Case Use Diagram](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Requeriments/UC_diagram.jpg)
 
 ## Design
-- [Class Diagram]()
+- [Class Diagram](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Design/class_diagram.pdf)
 - [Class Diagram Evolution](https://github.com/JaquelineGongora/Equipo-5/blob/Third/Requeriments/CD%20Evolution.pdf)
 - [Verification]()
 - [MVC]()
