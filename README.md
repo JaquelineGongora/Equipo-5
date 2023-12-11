@@ -49,11 +49,13 @@ The "Facultad de matemáticas", in accordance with its mission to "train highly 
 - [MVC]()
 
 ## Code
-- [Model](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Modelo)
-- [View](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Vista)
-- [Controler](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/Controlador)
-- [Main](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/ejerciciorepaso)
-- [SQL](https://github.com/JaquelineGongora/Equipo-5/tree/Second/Code/SQL)
+- [Model](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Modelo)
+- [View](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Vista)
+- [Controler](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Controlador)
+- [Main](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/Main)
+- [SQL](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/SQL)
+- [Data base and consulter](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/BD)
+- [Resources](https://github.com/JaquelineGongora/Equipo-5/tree/main/Code/img)
 
 ## Procces
 - [Description]()
