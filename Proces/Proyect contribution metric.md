@@ -50,4 +50,5 @@
 |Final Code|Jaqueline, Mariana, Mauro|5/5|5|
 |Competencies|Mauro|2/2|2|
 |Improvement areas|Mauro|2/2|2
-|Final Score|Jaqueline=67     Mariana=66    Mauro=64    Ricardo=27   Eduardo=21  |
+|Final Score|Jaqueline=66    Mariana=66    Mauro=66    Ricardo=27   Eduardo=21  |
+|Porcentajes |Jaqueline=33%  Mariana = 33%  Mauro= 33% Ricardo=0% Eduardo=0%
